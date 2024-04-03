@@ -1,0 +1,47 @@
+body {
+  background-image: url('https://i.ytimg.com/vi/N7tHWUhMPFU/maxresdefault.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.circulo {
+  width: 300px;
+  height: 300px;
+  background-color:#133273;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+}
+.texto {
+  color: #133273;
+  font-size: 44.5px;
+  font-weight: lighter;
+  font-family: 'Wide Latin', Arial, sans-serif;
+}
+
+.texto .larger {
+  font-size: 65px; /* Tamaño más grande para las letras D y W */
+}
+.linea {
+  border: 2px solid #133273
+}
+
+.luna {
+box-shadow: 22px 10px 0px 15px white; /*color a la sombra*/
+  width: 215px;
+  height: 210px;
+  border-radius: 50%;
+  transform: rotate(-15deg); /* Corregida la propiedad 'trasform' a 'transform' */
+  position: absolute;
+  left: 50%; /*  horizontal */
+  top: 14.5px;  /* vertical */
+  margin-left: -145px; /* ancho */
+  
+ 
+  
+}
